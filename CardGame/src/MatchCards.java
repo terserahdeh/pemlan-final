@@ -166,7 +166,7 @@ public class MatchCards {
             ICard firstCard = cardSet.get(board.indexOf(selectedCards.get(0)));
             String firstName = firstCard.getCardName();
 
-            for (JButton btn : selectedCards) {
+            for (JButton btn : selectedCards) { 
                 ICard currentCard = cardSet.get(board.indexOf(btn));
                 if (!currentCard.getCardName().equals(firstName)) {
                     match = false;
@@ -174,7 +174,7 @@ public class MatchCards {
                 }
             }
 
-        // ✅ Tambahan: cek jika semua adalah NyawaCard
+        // semua adalah NyawaCard
             boolean allNyawa = true;
             for (JButton btn : selectedCards) {
                 if (!(cardSet.get(board.indexOf(btn)) instanceof NyawaCard)) {
