@@ -18,7 +18,7 @@ public class MatchCards {
     }
 
     String[] cardList = {
-        "gelandangan", "hirono", "jance", "kak ajis", "kak icut",
+        "gelandangan", "hirono", "janice", "kak ajis", "kak icut",
         "kayla", "lugakpeduli", "orel", "sheyla", "vara"
     };
 
