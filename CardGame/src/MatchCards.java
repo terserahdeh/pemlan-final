@@ -32,7 +32,7 @@ public class MatchCards {
 
     ArrayList<ICard> cardSet;
     ImageIcon cardBackImageIcon;
-
+    
     // ukuran board game
     int boardWidth = columns * cardWidth;
     int boardHeight = rows * cardHeight;
